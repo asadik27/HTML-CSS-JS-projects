@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Welcome! To
+            <br><span class="one">Asad.</span><span class="two">IK</span> website
+        </h1>
+    </div>
+    <div class="bouncing-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <button onclick="logout()">Logout</button>
+
+
+</body>
+<script>
+    function logout() {
+
+        localStorage.removeItem('user');
+        alert('You have been logged out successfully!');
+        window.location.href = 'login.html';
+    }
+</script>
+
+</html>

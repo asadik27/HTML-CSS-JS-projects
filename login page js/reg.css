@@ -1,0 +1,76 @@
+body{
+    background-color: antiquewhite;
+    /* margin: 0%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+/* .reg{
+    background-color: black;
+} */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px double black;
+    width: 30%;
+    margin-left: 35%;
+    height: 100%;
+    background-color: white;
+    box-shadow:4px 4px 4px 5px black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(22, 34, 53);
+}
+span{
+    color: rgb(41, 133, 110);
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0%;
+    width: 80%;
+}
+label{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 68%;
+
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(22, 34, 53);
+    color: white;
+    font-family: monospace;
+    font-size: larger;
+    padding: 10px;
+    width: 50%;
+    margin: 0%;
+}
+button:hover{
+    box-shadow: 1px 1px 5px black;
+}
